@@ -25,31 +25,31 @@ A Python-based desktop application for discovering and monitoring devices connec
 
 Displays the application before a network scan is initiated.
 
-![Main Interface](screenshots/main.png)
+![Main Interface](main.png)
 
 ### Network Scan in Progress
 
 The application performs host discovery while keeping the interface responsive.
 
-![Scanning](screenshots/scanprogress.png)
+![Scanning](scanprogress.png)
 
 ### Newly Detected Devices
 
 Newly discovered devices are highlighted and a notification is displayed.
 
-![New Device](screenshots/all.png)
+![Alert](further.png)
 
 ### Device Detection Notification
 
 Each newly detected device generates an alert containing its IP and MAC address.
 
-![Alert](screenshots/further.png)
+![New Device](all.png)
 
 ### Re-scan
 
 Previously discovered devices are retrieved from the database without being highlighted as new.
 
-![Rescan](screenshots/re-scan.png)
+![Rescan](re-scan.png)
 
 ## Project Structure
 
