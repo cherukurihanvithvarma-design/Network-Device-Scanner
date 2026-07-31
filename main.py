@@ -30,7 +30,7 @@ class MainWindow(QMainWindow):
 
         init_db()
 
-        self.setWindowTitle("WIFI Scanner")
+        self.setWindowTitle("Network-Device Scanner")
         self.setGeometry(300, 200, 700, 400)
 
         layout = QVBoxLayout()
