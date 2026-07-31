@@ -19,9 +19,41 @@ A Python-based desktop application for discovering and monitoring devices connec
 - SQLite
 - python-nmap
 
+## Screenshots
+
+### Main Interface
+
+Displays the application before a network scan is initiated.
+
+![Main Interface](screenshots/main.png)
+
+### Network Scan in Progress
+
+The application performs host discovery while keeping the interface responsive.
+
+![Scanning](screenshots/scanprogress.png)
+
+### Newly Detected Devices
+
+Newly discovered devices are highlighted and a notification is displayed.
+
+![New Device](screenshots/all.png)
+
+### Device Detection Notification
+
+Each newly detected device generates an alert containing its IP and MAC address.
+
+![Alert](screenshots/further.png)
+
+### Re-scan
+
+Previously discovered devices are retrieved from the database without being highlighted as new.
+
+![Rescan](screenshots/re-scan.png)
+
 ## Project Structure
 
-```
+```text
 Network-Device-Scanner/
 │── main.py
 │── scanner.py
@@ -29,6 +61,7 @@ Network-Device-Scanner/
 │── event.py
 │── requirements.txt
 │── README.md
+│── screenshots/
 ```
 
 ## Installation
@@ -51,20 +84,20 @@ To improve scan performance, operating system detection was intentionally omitte
 
 - Designed for local Wi-Fi/LAN environments.
 - Discovery depends on network configuration and device visibility.
-- Enterprise networks with firewalls, VLANs, or access controls may restrict host discovery.
+- Enterprise firewalls, VLANs, or access controls may restrict host discovery.
 
 ## Future Enhancements
 
-- Optional OS detection (optional feature, disabled to prevent unnecessary time taken to scan the device info)
+- Optional operating system detection for detailed device information
 - Port scanning
 - Device trust management
 - Export reports (CSV/PDF)
 - Real-time notifications
 - Search and filtering
-- Auto-periodic scanning (optional feature, disabled to prevent unnecessary database accumulation)
+- Optional automatic periodic scanning to minimize unnecessary database growth
 
 ## Copyright
 
 © 2026 Hanvith Varma. All rights reserved.
 
-This repository is provided for portfolio and evaluation purposes only. Copying, modifying, or redistributing the source code without prior written permission is not permitted.
+This repository is intended for portfolio and evaluation purposes only. Unauthorized copying, modification, or redistribution of the source code is prohibited.
