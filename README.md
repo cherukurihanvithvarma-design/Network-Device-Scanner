@@ -88,13 +88,13 @@ To improve scan performance, operating system detection was intentionally omitte
 
 ## Future Enhancements
 
-- Optional operating system detection for detailed device information
+- Optional operating system detection for detailed device information (Intentionally withholded for faster scan results)
 - Port scanning
 - Device trust management
 - Export reports (CSV/PDF)
 - Real-time notifications
 - Search and filtering
-- Optional automatic periodic scanning to minimize unnecessary database growth
+- Optional automatic periodic scanning (Intentionally withholded for handling unnecessary database growth)
 
 ## Copyright
 
